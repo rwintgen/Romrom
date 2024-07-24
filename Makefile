@@ -5,7 +5,7 @@ NAME		=	romrom
 HEADER		=	-I ./include
 
 CXX			=	c++
-CXXFLAGS	=	-Wall -Wextra -Werror $(HEADER)
+CXXFLAGS	=	-Wall -Wextra -Werror -std=c++11 $(HEADER)
 
 SRC_DIR		=	./src
 BLD_DIR		=	./build

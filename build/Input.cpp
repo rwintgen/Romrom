@@ -29,7 +29,9 @@ void	Input::findAndSetType(void)
 		|| str == STR_EXIT8)
 		this->setType(EXIT);
 	else if (str == STR_HELP0 || str == STR_HELP1 || str == STR_HELP2 || str == STR_HELP3 \
-			|| str == STR_HELP4 || str == STR_HELP5 || str == STR_HELP6)
+			|| str == STR_HELP4 || str == STR_HELP5 || str == STR_HELP6 || str == STR_HELP7 \
+			|| str == STR_HELP8 || str == STR_HELP9 || str == STR_HELP10 || str == STR_HELP11 \
+			|| str == STR_HELP12 || str == STR_HELP13 || str == STR_HELP14)
 		this->setType(HELP);
 	else if (str == STR_STORY0 || str == STR_STORY1 || str == STR_STORY2 || str == STR_STORY3)
 		this->setType(STORY);
